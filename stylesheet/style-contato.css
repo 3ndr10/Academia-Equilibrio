@@ -1,0 +1,72 @@
+/*main------------------------------*/
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+}
+
+fieldset label, fieldset legend, form label {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+form textarea {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 20px;
+    width: 50%;
+}
+
+.input-block {
+    display: block;
+    margin-bottom: 20px;
+    font-size: 22px;
+    padding: 4px 7px;
+    width: 50%;
+}
+
+.input-inline {
+    margin-bottom: 20px;
+    margin-right: 10px;
+    font-size: 22px;
+}
+
+.enviar{
+    display: block;
+    width: 40%;
+    padding: 15px 0;
+    background-color: orange;
+    color: white;
+    font-weight: bold;font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover{
+    background-color: red;
+    transform: scale(1.2) rotate(4deg);
+}
+
+table{
+    margin: 40px auto;
+}
+
+thead{
+    background-color: #999999;
+    color: white;
+    font: bold;
+}
+
+td, th{
+    width: 300px;
+    border: #999999 1px solid;
+    padding: 5px;
+    font-size: 20px;
+}

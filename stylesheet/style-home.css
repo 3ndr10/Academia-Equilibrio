@@ -1,0 +1,117 @@
+  /*main------------------------------*/
+
+  main {
+      background: linear-gradient(#ffffff, #888888)
+  }
+
+  .banner {
+      width: 100%;
+  }
+
+  .titulo-secundario {
+      font-size: 2em;
+      text-align: center;
+      padding-bottom: 0.5em;
+      padding-top: 3px;
+      display: block;
+      color: rgba(0, 0, 0, 0.5);
+  }
+
+  .titulo-secundario::before {
+      content: "[ ";
+  }
+
+  .titulo-secundario::after {
+      content: " ]";
+  }
+
+  /* Section sobre */
+
+  .sobre p {
+      margin-bottom: 1em;
+      text-align: justify;
+  }
+
+  .sobre strong {
+      font-weight: bold;
+  }
+
+  .sobre em {
+      font-style: italic;
+  }
+
+  .equipamentos {
+      width: 250px;
+      float: left;
+      margin: 0px 15px 15px 0px;
+  }
+
+  .sobre {
+      padding: 30px;
+      width: 940px;
+      margin: 0 auto;
+      display: block;
+  }
+
+  /* Section benefícios */
+
+  .beneficios ul {
+      vertical-align: top;
+      display: inline-block;
+      width: 40%;
+      padding-left: 20px;
+      box-sizing: border-box;
+  }
+
+  .itens {
+      line-height: 1.5em;
+  }
+
+  .itens::before {
+      content: "★";
+  }
+
+  .itens:first-child {
+      font-weight: bold;
+  }
+
+  .beneficios {
+      padding: 20px;
+      height: 400px;
+      width: 940px;
+      margin: 0 auto;
+      display: block;
+  }
+
+  .imgBeneficios {
+      float: left;
+      width: 59%;
+  }
+
+  /* Section do mapa */
+
+  .mapa {
+      padding: 2em 0;
+      width: 940px;
+      margin: 0 auto;
+      display: block;
+  }
+
+  .mapa p {
+      margin-bottom: 1em;
+      text-align: center;
+  }
+
+  .mapa iframe {
+      box-shadow: 10px 10px 5px black;
+  }
+
+  /* Section do vídeo */
+
+  .video {
+      text-align: center;
+      padding: 1em;
+      width: 940px;
+      margin: 0 auto;
+      display: block;
+  }
